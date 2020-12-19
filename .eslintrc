@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "clarity-hub/node",
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "no-tabs": "off",
+        "class-methods-use-this": "off"
+    },
+   "env": {
+        "jest": true
+    } 
+}
