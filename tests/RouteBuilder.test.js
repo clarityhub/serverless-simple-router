@@ -39,8 +39,8 @@ function TaskCrudController() {
 		},
 		delete() {
 			return {};
-		}
-	}
+		},
+	};
 }
 
 function getUserMiddy() {
