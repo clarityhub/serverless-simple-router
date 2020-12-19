@@ -1,5 +1,7 @@
 # @clarityhub/serverless-simple-router
 
+![npm](https://img.shields.io/npm/v/@clarityhub/serverless-simple-router) ![Node.js CI](https://github.com/clarityhub/serverless-simple-router/workflows/Node.js%20CI/badge.svg)
+
 A simple router solution for managing many routes from one lambda in a
 serverless context.
 
@@ -9,8 +11,7 @@ npm i --save @clarityhub/serverless-simple-router
 
 ## Basic Usage
 
-In these examples, we route paths to our router function using the 
-following **serverless.yml** configuration:
+In these examples, we route paths to our router function using the following **serverless.yml** configuration:
 
 ```yml
 service: example
